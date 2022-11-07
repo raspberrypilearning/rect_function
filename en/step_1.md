@@ -1,59 +1,9 @@
-## Introduction
+The `rectangle` function call takes **four** numbers (arguments). 
 
-Add project description here. What will learners be making? Broadly what skills will they be learning?
+`rect(0, 0, 400, 250)` will draw a rectangle that starts in the **top left** corner at `(0, 0)` and is `400` pixels wide and `250` pixels tall. 
 
-### What you will make
++ The first two numbers are `0, 0` and refer to the `x` and `y` coordinates of the **top left** corner of the rectangle
++ `400` refers to the width (w) of the rectangle
++ `250` refers to the height (h) of the rectangle
 
---- no-print ---
-Add instructions for interacting with the embedded content here.
-
-<div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/160619869/?autostart=false" frameborder="0"></iframe>
-</div>
---- /no-print ---
-
---- print-only ---
-![Complete project](images/showcase_static.png)
---- /print-only ---
-
---- collapse ---
----
-title: What you will need
----
-### Hardware
-
-+ A computer or tablet capable of running Scratch 3
-
-### Software
-
-+ Scratch 3 (either [online](https://scratch.mit.edu/){:target="_blank"} or [offline](https://scratch.mit.edu/download){:target="_blank"})
-+ Python 3
-+ This project can be completed in a web browser using [trinket.io](https://trinket.io/)
-
-### Downloads
-
-+ Download the project [starter file](https://rpf.io/p/en/projectName-go){:target="_blank"} if working offline
-
---- /collapse ---
-
---- collapse ---
----
-title: What you will learn
----
-
-+ Learning objective 1
-+ Learning objective 2
-+ Learning objective 3
-
---- /collapse ---
-
---- collapse ---
----
-title: Additional information for educators
----
-
-You can download the completed project [here](https://rpf.io/p/en/projectName-get){:target="_blank"}.
-
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/projectName/print){:target="_blank"}.
-
---- /collapse ---
+![A diagram demonstrating what the four numbers in the rectangle function call mean. Part one focuses on the first number, which is 0. 0 refers to the x value and is located in the top left corner of the screen. Part two focuses on the second number, which is 0. This 0 refers to the y value and is also located in the top left corner. Part three focuses on the third number, which is 400. 400 refers to the width of the rectangle. The fourth part refers to the fourth number, which is 250. 250 refers to the height of the rectangle.](images/rectangle-diagram.png)
